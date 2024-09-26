@@ -1,0 +1,71 @@
+
+#ProfileVideo {
+  display: block;
+  margin: 0 auto;
+
+}
+  #Lifestyle {
+    text-shadow: 1px 1px 5px #ffffff;
+    position: relative;
+    bottom: 20px;
+    margin-left: 67%;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 50px;
+}
+body{
+    font-family: 'Odibee Sans', cursive;
+}
+.title {
+  color: #BFFEFF;
+  font-size: 18px;
+}
+
+button {
+font-family: 'Odibee Sans', cursive;
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 20px;
+}
+.black {
+  color : black;
+}
+table{
+  color: white;
+  font-size: 30px;
+}
+
+a {
+text-decoration: none;
+font-size: 22px;
+color: black;
+}
+.glow {
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #547AFF, 0 0 40px #547AFF, 0 0 50px #547AFF, 0 0 60px #547AFF, 0 0 70px #547AFF
+}
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #BFFEFF, 0 0 40px #BFFEFF, 0 0 50px #BFFEFF, 0 0 60px #BFFEFF, 0 0 70px #BFFEFF, 0 0 80px #BFFEFF;
+}
+}
+
+button:hover:not(.activebutton), a:hover {
+color: #fff;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+opacity: 08;
+}
